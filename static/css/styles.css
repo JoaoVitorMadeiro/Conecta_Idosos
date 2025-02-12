@@ -1,0 +1,58 @@
+/* Título das páginas */
+h2 {
+    color: #2E86C1;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+/* Seção de Saúde */
+.saude-opcoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+/* Botão ativo no rodapé */
+.nav-btn.active {
+    background: #1A5276;
+}
+
+/* Links do rodapé */
+footer a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.tab-btn {
+    background: #2E86C1;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 5px;
+    border-radius: 10px;
+}
+
+.tab-btn.active {
+    background: #117A65;
+}
+
+.tab-content {
+    display: none;
+    background: #F8F9F9;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.tab-content.active {
+    display: block;
+}

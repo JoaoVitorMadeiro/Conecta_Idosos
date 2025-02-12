@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conecta Idosos - Agendamentos</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="stylesheet" href="/static/css/index.css">
+    <script defer src="/static/js/index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>📅 Agendar Consulta</h1>
+        <p>Escolha um médico e selecione a data para agendar sua consulta.</p>
+
+        <form id="form-agendamento">
+            <label for="medico">👨‍⚕️ Selecione o médico:</label>
+            <select id="medico" required>
+                <option value="geriatra">🩺 Geriatra</option>
+                <option value="cardiologista">❤️ Cardiologista</option>
+                <option value="oftalmologista">👁️ Oftalmologista</option>
+                <option value="fisioterapeuta">🦵 Fisioterapeuta</option>
+                <option value="nutricionista">🥗 Nutricionista</option>
+            </select>
+
+            <label for="data">📆 Escolha a data:</label>
+            <input type="date" id="data" required>
+
+            <button type="submit" class="btn">✅ Confirmar Agendamento</button>
+        </form>
+
+        <p id="confirmacao" class="hidden">✅ Agendamento realizado com sucesso!</p>
+
+        <button class="btn" onclick="window.location.href='home.html'">🏠 Voltar para Home</button>
+    </div>
+</body>
+</html>

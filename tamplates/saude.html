@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conecta Idosos - Saúde</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="stylesheet" href="/static/css/index.css">
+    <script defer src="/static/js/index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Saúde e Bem-estar</h1>
+        <p>Mantenha-se saudável com nossas dicas e cursos!</p>
+
+        <div class="tabs">
+            <button class="tab-btn active" onclick="openTab(event, 'dicas-gerais')">🩺 Dicas Gerais</button>
+            <button class="tab-btn" onclick="openTab(event, 'higiene')">🧼 Higiene Pessoal</button>
+            <button class="tab-btn" onclick="openTab(event, 'alimentacao')">🥗 Alimentação Saudável</button>
+            <button class="tab-btn" onclick="openTab(event, 'exercicios')">🏋️‍♂️ Exercícios Físicos</button>
+        </div>
+
+        <div id="dicas-gerais" class="tab-content active">
+            <h2>📌 Cuidados Essenciais</h2>
+            <ul>
+                <li>Beber bastante água diariamente 💧</li>
+                <li>Manter uma alimentação equilibrada 🥗</li>
+                <li>Praticar atividades físicas regularmente 🚶‍♂️</li>
+                <li>Consultar o médico com frequência 👩‍⚕️</li>
+            </ul>
+        </div>
+
+        <div id="higiene" class="tab-content">
+            <h2>🚨 Higiene Pessoal - Prevenção da Virose da Mosca</h2>
+            <ul>
+                <li>🌿 Lave bem as mãos com água e sabão antes das refeições.</li>
+                <li>🥗 Cubra os alimentos para evitar contato com insetos.</li>
+                <li>🧴 Mantenha a casa limpa e descarte lixo regularmente.</li>
+                <li>🚰 Beba sempre água filtrada ou fervida.</li>
+                <li>🍽️ Evite consumir alimentos expostos ou de origem duvidosa.</li>
+            </ul>
+        </div>
+
+        <div id="alimentacao" class="tab-content">
+            <h2>🥗 Alimentação Saudável</h2>
+            <ul>
+                <li>🍎 Consuma frutas e verduras diariamente.</li>
+                <li>🍞 Prefira alimentos integrais em vez de refinados.</li>
+                <li>🥩 Evite o consumo excessivo de carne vermelha e frituras.</li>
+                <li>🥛 Beba leite e derivados com moderação.</li>
+            </ul>
+        </div>
+
+        <div id="exercicios" class="tab-content">
+            <h2>🏋️‍♂️ Benefícios dos Exercícios Físicos</h2>
+            <ul>
+                <li>🚶 Caminhe pelo menos 30 minutos por dia.</li>
+                <li>🧘‍♀️ Faça alongamentos para melhorar a mobilidade.</li>
+                <li>🚴 Ande de bicicleta para fortalecer as pernas.</li>
+                <li>🏋️‍♂️ Pratique musculação leve para fortalecer os músculos.</li>
+            </ul>
+        </div>
+
+        <button class="btn" onclick="window.location.href='cursos.html'">📚 Acessar Cursos</button>
+        <button class="btn" onclick="window.location.href='home.html'">🏠 Voltar para Home</button>
+        <button class="btn" onclick="window.location.href='agendamentos.html'">📅 Agendar Consulta</button>
+        
+
+    </div>
+</body>
+</html>
